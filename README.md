@@ -1,0 +1,23 @@
+# crowded-xiangqi-tests
+
+Tests for Crowded Xiangqi, defined as:
+
+```ini
+# Chinese Chess on half the board (5 × 9 intersections)
+# Pawns (soldiers) are set to display as archbishops (via pieceToCharTable)
+# so that WinBoard/XBoard won't disappear them on the last rank.
+# https://github.com/fairy-stockfish/Fairy-Stockfish/issues/180#issuecomment-692910150
+[crowdedxiangqi:xiangqi]
+pieceToCharTable = .N.R.ABP.K.C...........n.r.abp.k.c..........
+maxRank = 5
+startFen = rnbakabnr/pcp1p1pcp/9/PCP1P1PCP/RNBAKABNR w - - 0 1
+mobilityRegionBlackKing = d3 e3 f3 d4 e4 f4 d5 e5 f5
+mobilityRegionBlackFers = d3 e3 f3 d4 e4 f4 d5 e5 f5
+mobilityRegionBlackElephant = *1 *2 *3 *4 *5
+soldierPromotionRank = 4
+```
+
+See:
+
+- <https://yawnoc.github.io/crowded-xiangqi>
+- <https://github.com/fairy-stockfish/Fairy-Stockfish/wiki/Variant-configuration>
