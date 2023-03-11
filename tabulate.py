@@ -8,6 +8,7 @@ Tabulate the win statistics in `*/*/*.pgn`, updating `README.md`.
 
 import glob
 import os
+import re
 import sys
 
 
@@ -18,6 +19,21 @@ class Statistic:
         self.red_wins = red_wins
         self.black_wins = black_wins
         self.draw = draws
+
+    def entries(self):
+        return (self.os_engine, self.opening_timing, self.red_wins, self.black_wins, self.draw)
+
+
+def generate_row_markdown(row):
+    return f'| {" | ".join(str(entry) for entry in row)} |'
+
+
+def generate_table_markdown(headings, rows):
+    table_head_markdown = generate_row_markdown(headings)
+    table_neck_markdown = generate_row_markdown(tuple('-' for _ in headings))
+    table_body_markdown = '\n'.join(generate_row_markdown(r) for r in rows)
+
+    return '\n'.join([table_head_markdown, table_neck_markdown, table_body_markdown]) + '\n'
 
 
 def read_file_content(file_name):
@@ -49,6 +65,23 @@ def main():
             sys.exit(1)
 
         statistics.append(Statistic(os_engine, opening_timing, red_wins, black_wins, draws))
+
+    statistics_table_markdown = generate_table_markdown(
+        headings=('OS & Engine', 'Opening & Time Control', 'Red Wins', 'Black Wins', 'Draws'),
+        rows=[s.entries() for s in statistics]
+    )
+
+    with open('README.md', 'r', encoding='utf-8') as readme_file:
+        old_readme_content = readme_file.read()
+
+    new_readme_content = re.sub(
+        pattern=r'(?<=<!-- Start of Table -->\n)[\s\S]*?(?=<!-- End of Table -->)',
+        repl=statistics_table_markdown.replace('\\', '\\\\'),
+        string=old_readme_content,
+    )
+
+    with open('README.md', 'w', encoding='utf-8') as readme_file:
+        readme_file.write(new_readme_content)
 
 
 if __name__ == '__main__':
