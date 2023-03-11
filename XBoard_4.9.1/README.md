@@ -1,7 +1,6 @@
-# XBoard_4.9.1
+# (Debian 10, XBoard 4.9.1, Fairy-Stockfish 070323 LB)
 
-Host Machine: Linux Debian-Desktop 5.7.0-2-pinebookpro-arm64 #1 SMP PREEMPT Sat Sep 26 14:08:57 UTC 2020 aarch64 GNU/Linux
-
+- Debian 10 (Linux Debian-Desktop 5.7.0-2-pinebookpro-arm64 #1 SMP PREEMPT Sat Sep 26 14:08:57 UTC 2020 aarch64 GNU/Linux)
 - Xboard 4.9.1 installed by running `sudo apt install xboard`
 - "Fairy-Stockfish 070323 LB" compiled from [Fairy-Stockfish @ 7bbe19f] by running `make net; make build ARCH=armv8 largeboards=yes all=yes`
 
