@@ -31,3 +31,5 @@ See:
 | deb10-fsf070323lb | default-1m0s | 3 | 11 | 26 |
 | win10-fsf14.0.1xq | default-30m20s | 1 | 2 | 1 |
 <!-- End of Table -->
+
+This table can be updated automatically by running `./tabulate.py`.
