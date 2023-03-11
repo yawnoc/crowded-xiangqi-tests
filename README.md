@@ -28,7 +28,7 @@ See:
 <!-- Start of Table -->
 | OS & Engine | Opening & Time Control | Red Wins | Black Wins | Draws |
 | - | - | - | - | - |
-| deb10-fsf070323lb | default-1m0s | 9 | 22 | 39 |
+| deb10-fsf070323lb | default-1m0s | 10 | 27 | 43 |
 | win10-fsf14.0.1xq | default-30m20s | 1 | 2 | 1 |
 <!-- End of Table -->
 
