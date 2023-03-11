@@ -1,5 +1,7 @@
 # crowded-xiangqi-tests
 
+![Screenshot of Crowded Xiangqi opening position in XBoard.](crowded-xiangqi.png)
+
 Tests for Crowded Xiangqi, defined as:
 
 ```ini
