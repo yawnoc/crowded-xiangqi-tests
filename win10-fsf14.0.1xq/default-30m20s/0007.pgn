@@ -1,0 +1,38 @@
+[Event "Computer Chess Game"]
+[Site "CONWAY-LAPTOP-1"]
+[Date "2023.03.13"]
+[Round "-"]
+[White "Fairy-Stockfish 14.0.1 XQ"]
+[Black "Fairy-Stockfish 14.0.1 XQ"]
+[Result "1/2-1/2"]
+[TimeControl "1800+20"]
+[Variant "crowdedxiangqi"]
+[VariantFamily "xiangqi"]
+[VariantMen "N:nN;R:R;A:F;B:nA;P:fsW;K:W;C:mRcpR"]
+[FEN "rnbakabnr/pcp1p1pcp/9/PCP1P1PCP/RNBAKABNR w 0 1"]
+[SetUp "1"]
+
+{--------------
+r n b a k a b n r
+p c p . p . p c p
+. . . . . . . . .
+P C P . P . P C P
+R N B A K A B N R
+white to play
+--------------}
+1. Cb3 {-0.07/30} Ch3 {+0.00/30 1:11} 2. Pa3 {+0.13/26 15} Pxa3
+{+0.00/30 38} 3. Nxa3 {+0.15/29 37} Cxa3 {-0.07/29 38} 4. Ch4 {+0.28/28 44}
+Pc3 {+0.00/30 1:11} 5. Rxa3 {+0.21/28 42} Rxa3 {+0.00/31 19} 6. Bxa3
+{+0.08/32 37} Pxc2 {+0.00/34 28} 7. Be3 {+0.00/33 1:43} Bgxe3 {+0.00/28 56}
+8. Pxe3 {+0.00/31 26} Nf4 {+0.00/32 1:06} 9. Nf2 {-0.14/31 1:09} Pxe3
+{+0.28/31 34} 10. Cxf4 {-0.30/30 41} Ce4+ {+0.46/30 32} 11. Nxe4
+{+0.00/36 32} Bxa3 {+0.00/38 1:09} 12. Rh1 {+0.00/38 36} Adxe4
+{+0.00/38 33} 13. Rh3 {+0.00/39 31} Bc1 {+0.00/38 36} 14. Pg3 {+0.00/39 35}
+Pxg3 {+0.00/40 52} 15. Rh2 {+0.00/41 47} Rg5 {+0.00/39 53} 16. Rxc2
+{+0.00/42 45} Ba3 {+0.00/40 35} 17. Ch4 {+0.00/42 34} Pg2 {+0.00/40 33} 18.
+Rd2 {+0.00/42 1:27} Pg1 {+0.00/38 34} 19. Afe2 {+0.00/41 47} Pxe2+
+{+0.00/39 34} 20. Axe2 {+0.00/43 32} Ph1 {+0.00/41 53} 21. Af1
+{+0.00/46 56} Pg1 {+0.00/43 57} 22. Ae2 {+0.00/45 49} Ph1 {+0.00/47 43} 23.
+Af1 {+0.00/48 1:23} Pg1 {+0.00/47 39} 24. Ae2 {+0.00/51 54}
+{XBoard adjudication: repetition draw} 1/2-1/2
+

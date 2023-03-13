@@ -32,7 +32,7 @@ See:
 | - | - | - | - | - |
 | deb10-fsf070323lb | centrepawn-1m0s | 47 | 2 | 11 |
 | deb10-fsf070323lb | default-1m0s | 13 | 36 | 51 |
-| win10-fsf14.0.1xq | default-30m20s | 1 | 2 | 1 |
+| win10-fsf14.0.1xq | default-30m20s | 2 | 4 | 4 |
 <!-- End of Table -->
 
 This table can be updated automatically by running `./tabulate.py`.
