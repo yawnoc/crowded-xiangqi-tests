@@ -30,7 +30,7 @@ See:
 <!-- Start of Table -->
 | OS & Engine | Opening & Time Control | Red Wins | Black Wins | Draws |
 | - | - | - | - | - |
-| deb10-fsf070323lb | centrepawn-1m0s | 69 | 3 | 18 |
+| deb10-fsf070323lb | centrepawn-1m0s | 78 | 3 | 19 |
 | deb10-fsf070323lb | default-1m0s | 13 | 36 | 51 |
 | win10-fsf14.0.1xq | default-30m20s | 2 | 4 | 4 |
 <!-- End of Table -->
