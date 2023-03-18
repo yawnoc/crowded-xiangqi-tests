@@ -32,7 +32,7 @@ See:
 | - | - | - | - | - |
 | deb10-fsf070323lb | centrepawn-1m0s | 78 | 3 | 19 |
 | deb10-fsf070323lb | default-1m0s | 13 | 36 | 51 |
-| deb10-fsf070323lb | raisedcannon-1m0s | 3 | 1 | 6 |
+| deb10-fsf070323lb | raisedcannon-1m0s | 11 | 13 | 26 |
 | win10-fsf14.0.1xq | default-30m20s | 3 | 16 | 7 |
 <!-- End of Table -->
 
