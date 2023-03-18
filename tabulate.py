@@ -13,15 +13,16 @@ import sys
 
 
 class Statistic:
-    def __init__(self, os_engine, opening_timing, red_wins, black_wins, draws):
+    def __init__(self, os_engine, opening_timing, total_games, red_wins, black_wins, draws):
         self.os_engine = os_engine
         self.opening_timing = opening_timing
+        self.total_games = total_games
         self.red_wins = red_wins
         self.black_wins = black_wins
         self.draw = draws
 
     def entries(self):
-        return (self.os_engine, self.opening_timing, self.red_wins, self.black_wins, self.draw)
+        return (self.os_engine, self.opening_timing, self.total_games, self.red_wins, self.black_wins, self.draw)
 
 
 def generate_row_markdown(row):
@@ -64,10 +65,10 @@ def main():
             )
             sys.exit(1)
 
-        statistics.append(Statistic(os_engine, opening_timing, red_wins, black_wins, draws))
+        statistics.append(Statistic(os_engine, opening_timing, total_games, red_wins, black_wins, draws))
 
     statistics_table_markdown = generate_table_markdown(
-        headings=('OS & Engine', 'Opening & Time Control', 'Red Wins', 'Black Wins', 'Draws'),
+        headings=('OS & Engine', 'Opening & Time Control', 'Total Games', 'Red Wins', 'Black Wins', 'Draws'),
         rows=[s.entries() for s in statistics]
     )
 
