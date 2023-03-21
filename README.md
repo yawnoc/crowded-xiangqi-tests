@@ -33,7 +33,7 @@ See:
 | deb10-fsf070323lb | centrepawn-1m0s | 100 | 78 | 3 | 19 |
 | deb10-fsf070323lb | default-1m0s | 100 | 13 | 36 | 51 |
 | deb10-fsf070323lb | raisedcannon-1m0s | 100 | 23 | 29 | 48 |
-| win10-fsf14.0.1xq | default-30m20s | 26 | 3 | 16 | 7 |
+| win10-fsf14.0.1xq | default-30m20s | 36 | 4 | 23 | 9 |
 <!-- End of Table -->
 
 This table can be updated automatically by running `./tabulate.py`.
