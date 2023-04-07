@@ -1,0 +1,35 @@
+[Event "Computer Chess Game"]
+[Site "Debian-Desktop"]
+[Date "2023.04.07"]
+[Round "-"]
+[White "Fairy-Stockfish 070323 LB"]
+[Black "Fairy-Stockfish 070323 LB"]
+[Result "1/2-1/2"]
+[TimeControl "60"]
+[Variant "crowdedxiangqi"]
+[VariantMen "N:nN;R:R;A:F;B:nA;P:fsW;K:W;C:mRcpR"]
+[FEN "rnbakabnr/pcp1p1pcp/1C7/P1P1P1PCP/RNBAKABNR b 1 1"]
+[SetUp "1"]
+
+{--------------
+r n b a k a b n r
+p c p . p . p c p
+. C . . . . . . .
+P . P . P . P C P
+R N B A K A B N R
+black to play
+--------------}
+1... Ch3 {-0.15/16 1.8} 2. Pa3 {+0.00/16 1.7} Pxa3 {-0.14/17 0.3} 3. Nxa3
+{+0.00/17 0.3} Cxa3 {+0.00/17 0.3} 4. Rxa3 {+0.00/19 0.7} Rxa3
+{+0.00/18 2.2} 5. Bxa3 {+0.30/21 0.1} Pi3 {-0.23/15 1.5} 6. Pxi3
+{+0.07/18 0.1} Rxi3 {-0.06/18 1.2} 7. Rxi3 {+0.00/19 0.1} Nxi3
+{+0.00/19 0.6} 8. Be3 {+0.07/21 2.7} Pxe3 {-0.07/20 0.1} 9. Nf2
+{+0.22/17 0.5} Nxg2 {+0.00/17 0.3} 10. Cxb5 {+0.00/18 2.2} Cb1+
+{+0.22/19 0.8} 11. Bc1 {+0.00/19 0.1} Pxe2+ {+0.36/17 1.2} 12. Axe2
+{+0.00/21 0.1} Ae4 {+0.29/17 1.4} 13. Ch5+ {+0.00/19 2.8} Be3
+{+0.07/18 0.8} 14. Af1 {+0.00/18 1.5} Bxc1 {+0.00/20 0.1} 15. Ca5
+{+0.00/20 0.8} Kf5 {+0.00/17 0.9} 16. Ch2 {+0.00/21 0.1} Kf4 {+0.00/20 0.8}
+17. Ca4 {+0.00/23 0.9} Kf5 {+0.00/23 0.3} 18. Ca5 {+0.00/23 0.6} Ke5
+{+0.00/24 0.5} 19. Ch5 {+0.00/25 1.4} Kf5 {+0.00/25 0.1}
+{Draw} 1/2-1/2
+

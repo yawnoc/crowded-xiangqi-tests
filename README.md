@@ -32,7 +32,7 @@ See:
 | - | - | - | - | - | - |
 | deb10-fsf070323lb | centrepawn-1m0s | 100 | 78 | 3 | 19 |
 | deb10-fsf070323lb | default-1m0s | 100 | 13 | 36 | 51 |
-| deb10-fsf070323lb | leftcannon-1m0s | 40 | 14 | 2 | 24 |
+| deb10-fsf070323lb | leftcannon-1m0s | 50 | 17 | 4 | 29 |
 | deb10-fsf070323lb | rightcannon-1m0s | 100 | 23 | 29 | 48 |
 | deb10-fsf070323lb | rightelephant-1m0s | 50 | 25 | 19 | 6 |
 | win10-fsf14.0.1xq | default-30m20s | 65 | 7 | 28 | 30 |
