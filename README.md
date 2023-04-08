@@ -34,7 +34,7 @@ See:
 | deb10-fsf070323lb | default-1m0s | 100 | 13 | 36 | 51 |
 | deb10-fsf070323lb | leftcannon-1m0s | 100 | 34 | 14 | 52 |
 | deb10-fsf070323lb | rightcannon-1m0s | 100 | 23 | 29 | 48 |
-| deb10-fsf070323lb | rightelephant-1m0s | 90 | 49 | 29 | 12 |
+| deb10-fsf070323lb | rightelephant-1m0s | 100 | 52 | 36 | 12 |
 | win10-fsf14.0.1xq | default-30m20s | 65 | 7 | 28 | 30 |
 <!-- End of Table -->
 
